@@ -9,7 +9,8 @@ RUN dotnet restore "API_MIA/API_MIA.csproj"
 # Копируем остальные файлы и собираем релиз
 COPY . .
 WORKDIR "/src/API_MIA"
-RUN dotnet publish "API_MIA.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "API_MIA.csproj" -c Release -o /app/publish /p:UseAppHost=false /p:RestoreAdditionalProjectSources=""
+
 
 # Используем легковесный образ рантайма .NET 10 для запуска
 FROM ://microsoft.com AS final
