@@ -1,6 +1,7 @@
 [build]
 builder = "NIXPACKS"
-buildCommand = "dotnet publish -c Release -o out"
+buildCommand = "dotnet publish **/API_MIA.csproj -c Release -o out"
 
 [deploy]
 startCommand = "dotnet out/API_MIA.dll"
+
