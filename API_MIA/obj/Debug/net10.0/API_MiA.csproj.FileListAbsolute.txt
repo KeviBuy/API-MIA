@@ -106,3 +106,4 @@ C:\Users\kirri\OneDrive\Desktop\Моделювання та Аналіз\Про�
 C:\Users\kirri\OneDrive\Desktop\Моделювання та Аналіз\Проекты\API\API_MiA\obj\Debug\net10.0\API_MiA.pdb
 C:\Users\kirri\OneDrive\Desktop\Моделювання та Аналіз\Проекты\API\API_MiA\obj\Debug\net10.0\API_MiA.genruntimeconfig.cache
 C:\Users\kirri\OneDrive\Desktop\Моделювання та Аналіз\Проекты\API\API_MiA\obj\Debug\net10.0\ref\API_MiA.dll
+C:\Users\kirri\OneDrive\Desktop\Моделювання та Аналіз\Проекты\API\API_MIA\obj\Debug\net10.0\API_MIA.sourcelink.json

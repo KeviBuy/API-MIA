@@ -1,0 +1,23 @@
+# Используем официальный образ SDK .NET 10 для сборки
+FROM ://microsoft.com AS build
+WORKDIR /src
+
+# Копируем файл проекта и восстанавливаем зависимости
+COPY ["API_MIA/API_MIA.csproj", "API_MIA/"]
+RUN dotnet restore "API_MIA/API_MIA.csproj"
+
+# Копируем остальные файлы и собираем релиз
+COPY . .
+WORKDIR "/src/API_MIA"
+RUN dotnet publish "API_MIA.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+# Используем легковесный образ рантайма .NET 10 для запуска
+FROM ://microsoft.com AS final
+WORKDIR /app
+COPY --from=build /app/publish .
+
+# Railway автоматически назначает порт через переменную среды PORT
+ENV ASPNETCORE_URLS=http://+:8080
+EXPOSE 8080
+
+ENTRYPOINT ["dotnet", "API_MIA.dll"]
