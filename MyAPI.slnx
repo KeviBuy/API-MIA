@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="API_MiA.Tests/API_MiA.Tests.csproj" />
+  <Project Path="API_MiA/API_MiA.csproj" />
+</Solution>
