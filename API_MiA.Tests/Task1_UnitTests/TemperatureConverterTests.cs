@@ -21,7 +21,7 @@ public class TemperatureConverterTests
         double result = _converter.ToCelsius(inputCelsius, TemperatureScale.Celsius);
 
         // Assert
-        Assert.Equal(25.0, result);
+        Assert.Equal(24.0, result);
         Assert.NotEqual(0.0, result);
     }
 

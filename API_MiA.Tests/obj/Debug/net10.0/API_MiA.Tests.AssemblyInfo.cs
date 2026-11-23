@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API_MiA.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd4ddd358acea00a8fdf4aa408772dc3a9636fb2")]
 [assembly: System.Reflection.AssemblyProductAttribute("API_MiA.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API_MiA.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

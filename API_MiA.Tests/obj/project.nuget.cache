@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wbiG/gic1Oc=",
+  "dgSpecHash": "IfTEXoW6zqA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.TEsts\\API_MiA.Tests.csproj",
+  "projectFilePath": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.Tests\\API_MiA.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kirri\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\kirri\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -83,9 +83,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "У пакета \"AutoMapper\" 12.0.1 есть известная уязвимость https://github.com/advisories/GHSA-6vhm-j9h7-f9gh (уровень серьезности: высокий)",
-      "projectPath": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.TEsts\\API_MiA.Tests.csproj",
+      "projectPath": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.Tests\\API_MiA.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.TEsts\\API_MiA.Tests.csproj",
+      "filePath": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.Tests\\API_MiA.Tests.csproj",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net10.0"
@@ -95,9 +95,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "У пакета \"AutoMapper\" 12.0.1 есть известная уязвимость https://github.com/advisories/GHSA-gpwp-5797-mjff (уровень серьезности: высокий)",
-      "projectPath": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.TEsts\\API_MiA.Tests.csproj",
+      "projectPath": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.Tests\\API_MiA.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.TEsts\\API_MiA.Tests.csproj",
+      "filePath": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.Tests\\API_MiA.Tests.csproj",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net10.0"
@@ -107,9 +107,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "У пакета \"AutoMapper\" 12.0.1 есть известная уязвимость https://github.com/advisories/GHSA-rvv3-g6hj-g44x (уровень серьезности: высокий)",
-      "projectPath": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.TEsts\\API_MiA.Tests.csproj",
+      "projectPath": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.Tests\\API_MiA.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.TEsts\\API_MiA.Tests.csproj",
+      "filePath": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.Tests\\API_MiA.Tests.csproj",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net10.0"

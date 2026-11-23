@@ -3841,11 +3841,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.TEsts\\API_MiA.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.Tests\\API_MiA.Tests.csproj",
       "projectName": "API_MiA.Tests",
-      "projectPath": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.TEsts\\API_MiA.Tests.csproj",
+      "projectPath": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.Tests\\API_MiA.Tests.csproj",
       "packagesPath": "C:\\Users\\kirri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.TEsts\\obj\\",
+      "outputPath": "C:\\Users\\kirri\\OneDrive\\Desktop\\Моделювання та Аналіз\\Проекты\\API\\API_MIA.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
