@@ -18,13 +18,17 @@ jobs:
           dotnet-version: 8.0.x
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: |
+          dotnet restore ./API_MIA/API_MIA.csproj
+          dotnet restore ./API_MiA.Tests/API_MiA.Tests.csproj
 
       - name: Build
-        run: dotnet build --configuration Release --no-restore
+        run: |
+          dotnet build ./API_MIA/API_MIA.csproj --configuration Release --no-restore
+          dotnet build ./API_MiA.Tests/API_MiA.Tests.csproj --configuration Release --no-restore
 
       - name: Run tests # Доданий крок для запуску тестів
-        run: dotnet test --configuration Release --no-build --verbosity normal
+        run: dotnet test ./API_MiA.Tests/API_MiA.Tests.csproj --configuration Release --no-build --verbosity normal
 
       - name: Install Railway CLI
         run: npm i -g @railway/cli
