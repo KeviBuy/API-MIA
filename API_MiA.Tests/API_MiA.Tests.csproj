@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\API_MiA\API_MiA.csproj" />
+    <ProjectReference Include="..\API_MIA\API_MIA.csproj" />
   </ItemGroup>
 
 </Project>
